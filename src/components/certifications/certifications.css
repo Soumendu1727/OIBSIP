@@ -1,0 +1,21 @@
+.certifications_container {
+display: grid;
+grid-template-columns:repeat(2, 1fr) ;
+gap: 4rem;
+padding: 0 15%;
+}
+
+#certifications{
+    margin-top: -7rem;
+}
+
+@media screen and (max-width: 600px) {
+    .certifications_container {
+        grid-template-columns:repeat(1, 1fr) ;
+        gap: 2rem;
+        padding: 0 13;
+        }
+    #certifications{
+        margin-top: 12rem;
+    }
+}
